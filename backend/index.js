@@ -10,12 +10,7 @@ app.get('/api/health', (req, res) => {
 
 app.get('/api/info', (req, res) => {
     res.json([
-        { nombre: 'Emely', edad: 18, carrera: 'Ingeniería Informática', materiasAprobadas: 8 }
-    ]);
-});
-
-app.get('/api/info', (req, res) => {
-    res.json([
+        { nombre: 'Emely', edad: 18, carrera: 'Ingeniería Informática', materiasAprobadas: 8 },
         { nombre: 'Daniel', edad: 19, carrera: 'Ingeniería Informática', materiasAprobadas: 12 }
     ]);
 });
